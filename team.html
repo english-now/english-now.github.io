@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Our Team | Cantet Web Design</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A web design agency that seeks to create beautiful, clean pages.">
+    <meta name="author" content="Paulo Costa, Erik Boesen">
+    <meta name="keywords" content="web, design, web design, cantet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img/ico" href="favicon.ico">
+    <style>
+        article {
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        section {
+            display: inline-block;
+            width: 20%;
+            text-align: center;
+            color: #333;
+        }
+        
+        section img {
+            width: 80%;
+            border-radius: 100%;
+        }
+        
+        section div {
+            transform: scaleY(0);
+            transform-origin: top;
+            overflow: hidden;
+            margin-top: 20px;
+            transition: .3s ease;
+        }
+        
+        section h2 {
+            font-family: "Raleway", "Open Sans", sans-serif;
+        }
+        
+        section img:hover + div,
+        section:hover div {
+            transform: scaleY(1);
+            transition: .2s;
+        }
+        
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        
+        section p:nth-child(2) {
+            font-weight: 700;
+        }
+        
+        article {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        section {
+            display: inline-block;
+            width: 20%;
+            text-align: center;
+            margin: 10px;
+        }
+        
+        section img {
+            width: 200px;
+            border-radius: 50%;
+            border: solid 8px white;
+            box-shadow: 0 0 1px #000;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        
+        section div {
+            height: 0;
+            overflow: hidden;
+            margin-top: 20px;
+            transition: .3s ease;
+        }
+        
+        section img:hover + div,
+        section:hover div {
+            height: 300px;
+            transition: .2s;
+        }
+        
+        article {
+            height: 600px;
+        }
+        
+        section h5 {
+            font-weight: 700;
+        }
+    </style>
+    <script src="jquery.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <header>
+        <a href="http://cantet.io">
+            <img class="logo" src="hdlogo.png" alt="Cantet Web Design logo">
+            <h1 class="title">Cantet Web Design</h1>
+        </a>
+        <h3 class="tagline">Assess - Address - Success</h3>
+        <nav>
+            <a href="http://cantet.io">Home</a>
+            <a href="team">Our Team</a>
+            <a href="#">Words</a>
+            <a href="#">Word</a>
+            <a href="hire">Hire Us</a>
+        </nav>
+    </header>
+    <div class="help">
+        <p>Hover over over the pictures for information on our team.</p>
+    </div>
+    <article>
+        <section>
+            <img src="images/team/paulo.jpg" alt="Paulo Costa">
+            <div>
+                <h2>Paulo Costa</h2>
+                <p>Founder/Leader/Front End Developer</p>
+                <p> Paulo Costa is a programmer who is proficient in HTML, CSS, JavaScript, and C#. When not coding, Paulo plays baseball. He enjoys writing and Doctor Who.</p>
+            </div>
+        </section>
+        <section>
+            <img src="images/team/erik.png" alt="Erik Boesen">
+            <div>
+                <h2>Erik Boesen</h2>
+                <p>Head of Design</p>
+                <p>Erik is our head designer. In his free time, he enjoys <a href="erikboesen.com/photography" class="teama">photography</a>, <a href="http://erikboesen.com/web" class="teama">web design</a>, writing on <a href="http://erikboesen.com/blog">his blog</a>, and hiking. More information about Erik can be found <a href="http://erikboesen.com" class="teama">on his website</a>.</p>
+            </div>
+        </section>
+        <section>
+            <img src="images/team/erik.png" alt="Nicholas Costa">
+            <div>
+                <h2>Nicholas Costa</h2>
+                <p>Head of Making Things Do Things</p>
+                <p>Nicholas Costa is our JavaScript and back-end manager. In his spare time, he enjoys reading and science. He enjoys math, logic, and <a href="http://howtocenterincss.com" class="teama">howtocenterincss.com</a>.</p>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <p>Copyright&copy; 2015 Cantet Web Design. All rights reserved.</p>
+        <a href="http://github.com/Aardwolf95/Cantet.io"><img src="http://erikboesen.com/images/social/GitHub.png">
+        </a>
+    </footer>
+</body>
+
+</html>

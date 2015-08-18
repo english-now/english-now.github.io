@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>404 | Cantet Web Design</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Paulo Costa and Erik Boesen">
+    <meta name="description" content="Page not found.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="img/ico" href="favicon.ico">
+    <style>
+        .bg {
+            background-image: url('http://images.radiotimes.com/namedimage/The_Empty_Child_The_Doctor_Dances______.jpg?quality=85&mode=crop&width=580&height=350&404=tv&url=/uploads/images/original/27892.jpg');
+        }
+        
+        .jumbotron p {
+            margin: 0 10% 0 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <header>
+        <a href="http://cantet.io">
+            <img class="logo" src="hdlogo.png" alt="Cantet Web Design logo">
+            <h1 class="title">Cantet Web Design</h1>
+        </a>
+        <h3 class="tagline">Assess - Address - Success</h3>
+        <nav>
+            <a href="http://cantet.io">Home</a>
+            <a href="team">Our Team</a>
+            <a href="#">Words</a>
+            <a href="#">Word</a>
+            <a href="hire">Hire Us</a>
+        </nav>
+    </header>
+    <div class="jumbotron">
+        <h2>Are you my mummy?</h2>
+        <p>The page at <span id="url"></span> could not be found. Kindly navigate to an existing part of the site via the navigation bar or the omnibox.</p>
+    </div>
+
+    <script>
+        var url = window.location.href;
+        var urlshow = document.getElementById("url");
+        urlshow.innerHTML = url;
+    </script>
+</body>
+
+</html>
