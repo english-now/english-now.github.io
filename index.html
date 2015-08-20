@@ -8,7 +8,7 @@
     <meta name="author" content="Erik Boesen">
     <meta name="keywords" content="english classes, english now, washington dc english school, washington dc english classes">
     <link rel="stylesheet" href="css/style.css">
-    <link media="only screen and (max-width: 800px)" href="css/mobile.css">
+    <link rel="stylesheet" media="only screen and (max-width: 800px)" href="css/mobile.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
@@ -18,10 +18,10 @@
     <header>
         <a href="http://english-now.com">
             <img class="logo" src="images/logo.png" alt="English Now! logo">
-            <hgroup>
+            <div>
                 <h1 class="title">English Now!</h1>
                 <h3 class="tagline">Assess - Address - Success</h3>
-            </hgroup>
+            </div>
         </a>
         <nav>
             <ul>
@@ -63,7 +63,7 @@
                     </ul>
                 </li>
                 <li><a href="hire">Our Location</a></li>
-                <li><a href="">More</a>
+                <li><a>More</a>
                     <ul>
                         <li><a href="instructors-and-staff">Instructors &amp; Staff</a></li>
                         <li><a href="why-english-now">Why English Now!?</a></li>
@@ -81,16 +81,21 @@
     </header>
     <div class="bg"></div>
     <div class="jumbotron">
-        <span>
+        <div class="column">
             <h2>A Special Place to Learn English.</h2>
             <p>Serving the Washington, DC area international community since 1991, English Now! offers English language courses for students of all levels. It brings us great joy to welcome you to our school. Come see our school through our welcome video!</p>
-        </span>
-        <iframe src="http://player.vimeo.com/video/90650755" width="500" height="281" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div>
+        <div class="column">
+            <div class="jumbotron-video-wrapper">
+                <iframe src="https://player.vimeo.com/video/90650755?title=0&byline=0&portrait=0" width="1000" height="562" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
     <article>
         <p>We take a distinctive approach to English language study. To ensure that each student benefits from personalized instruction, class sizes are small. Our group classes enroll a maximum of six students, and many classes are even smaller.</p>
-        <p>We offer a warm, welcoming atmosphere to a wonderfully diverse set of students from around the world. In the past seven years, over 4000 students from 95 different countries have studied with us! We hope that all of our students feel at home during their time at English Now! </p>
-        <p>Whether you are a resident of the Washington, DC area or a visitor, we invite you to learn “English for life” at English Now! To learn about great ESL classes, keep in touch about our school activities or to stay in touch with your classmates or friends, please visit us at the school, follow us on Facebook, or contact us. Please also visit us at ENcompass, where we provide useful information and ideas online, to our friends and family around the world!</p>
+        <p>We offer a warm, welcoming atmosphere to a wonderfully diverse set of students from around the world. In the past seven years, over 4000 students from 95 different countries have studied with us! We hope that all of our students feel at home during their time at English Now!</p>
+        <p>Whether you are a resident of the Washington, DC area or a visitor, we invite you to learn “English for life” at English Now! To learn about great ESL classes, keep in touch about our school activities or to stay in touch with your classmates or friends, please visit us at the school, <a href="https://www.facebook.com/EnglishNowWashingtonDC">follow us on Facebook</a>
+        , or <a href="contact-us">contact us</a>. Please also visit us at <a href="encompass">ENcompass</a>, where we provide useful information and ideas online, to our friends and family around the world!</p>
     </article>
     <footer>
         <div>
@@ -139,7 +144,7 @@
             <a href="corporate-programs">Corporate Programs</a>
             <a href="student-services">Student Services</a>
         </div>
-        <p>© 2015 English Now! All rights reserved. Images by Erik Boesen. Images of Washington, DC, by Jack Haefner Photography. Website built and designed by Erik Boesen.</p>
+        <p>© 2015 English Now! All rights reserved. Images by <a href="http://erikboesen.com">Erik Boesen</a>. Website built and designed by <a href="http://erikboesen.com">Erik Boesen</a>.</p>
     </footer>
 </body>
 
