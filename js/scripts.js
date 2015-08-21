@@ -4,3 +4,9 @@ $(window).scroll(function () {
         "transform": "translate(0,-" + wScroll / 2 + "px)"
     });
 });
+
+$(".menuButton").click(function() {
+    $("nav").animate({
+        top: 0
+    });
+});

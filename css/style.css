@@ -64,6 +64,41 @@ header h3 {
     font-weight: 300;
 }
 
+.menuButton {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: white;
+    border: solid 1px #ccc;
+    box-sizing: content-box;
+    padding: 3px 10px 13px 10px;
+    display: none;
+}
+.menuBar, .menuBar:after, .menuBar:before {
+    width: 100%;
+    height: 3px;
+    background-color: #111;
+    border-radius: 1px;
+}
+.menuBar:after, .menuBar:before {
+    content: '';
+    position: absolute;
+}
+.menuBar:after {
+    top: 20px;
+}
+.menuBar:before {
+    top: 10px;
+}
 
 nav {
     display: inline;
@@ -77,6 +112,7 @@ nav ul, nav ul li {
 nav ul {
     list-style: none;
     padding: 0;
+    z-index: 1000;
 }
 nav > ul {
     margin-top: 50px;
@@ -104,6 +140,15 @@ nav ul ul {
 }
 nav ul li:hover > ul {
     display: block;
+}
+@media only screen and (max-width: 1000px) {
+    .menuButton {
+        display: block;
+    }
+    nav {
+        position: fixed;
+        top: 100vh;
+    }
 }
 
 
