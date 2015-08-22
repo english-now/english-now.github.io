@@ -32,6 +32,7 @@ body {
 }
 a {
     color: inherit;
+    color: #bf2b2b;
 }
 a:hover {
     text-decoration: none;
@@ -49,6 +50,13 @@ header {
 }
 header a {
     text-decoration: none;
+}
+header a div {
+    transition: .2s color;
+}
+header a div:hover {
+    color: #6f2a2a;
+    transition: .2s color;
 }
 header div {
     display: inline-block;
@@ -204,13 +212,13 @@ nav ul li:hover > ul {
 
 article {
     padding: 30px 40px;
-    background: #ddd;
+    background: white;
 }
 
 footer {
     text-align: center;
-    background: black;
-    color: darkgray;
+    background: #6f2a2a;
+    color: lightgray;
     height: 50vh;
     width: 100%;
 }
@@ -224,5 +232,5 @@ footer div {
 footer div a {
     display: block;
     text-decoration: none;
-    color: #2b7abf;
+    color: inherit;
 }
