@@ -12,7 +12,7 @@
         .bg {
             background-image: url('http://images.radiotimes.com/namedimage/The_Empty_Child_The_Doctor_Dances______.jpg?quality=85&mode=crop&width=580&height=350&404=tv&url=/uploads/images/original/27892.jpg');
         }
-        
+
         .jumbotron p {
             margin: 0 10% 0 10%;
         }

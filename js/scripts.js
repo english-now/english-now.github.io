@@ -10,3 +10,7 @@ $(".menuButton").click(function() {
         top: 0
     });
 });
+
+function emailMe(address) {
+    window.open("mailto:" + address + "@english-now.com");
+}
