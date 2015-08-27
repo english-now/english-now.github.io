@@ -12,5 +12,6 @@ $(".menuButton").click(function() {
 });
 
 function emailMe(address) {
+    console.log("test");
     window.open("mailto:" + address + "@english-now.com");
 }
