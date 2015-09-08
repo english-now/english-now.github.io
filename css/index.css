@@ -1,7 +1,5 @@
 .bg {
-    background-image: url(../images/jefferson-memorial.jpg);
-}
-.bg {
+    background-image: url(../images/bg.jpg);
     width: 100%;
     height: 100%;
     left: 0;
@@ -13,7 +11,7 @@
 
 .jumbotron {
     color: white;
-    min-height: 80vh;
+    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

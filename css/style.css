@@ -71,7 +71,7 @@ header {
     font-family: "Raleway", "Open Sans", sans-serif;
     background: white;
     padding: 15px;
-    max-height: 20vh;
+    height: 20vh;
 }
 header a {
     text-decoration: none;
@@ -189,8 +189,14 @@ nav ul li:hover > ul {
         display: block;
     }
     nav {
+        z-index: 500;
         position: fixed;
         top: 100vh;
+        left: 0;
+        background: lightgrey;
+    }
+    nav li {
+        position: static;
     }
 }
 
@@ -202,7 +208,7 @@ article {
 
 footer {
     text-align: center;
-    background: #6f2a2a;
+    background: #4e1a1a;
     color: lightgray;
     height: 50vh;
     width: 100%;
@@ -223,5 +229,10 @@ article img, article iframe[allowfullscreen] {
     max-width: 420px;
     float: left;
     margin-right: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+}
+article img:nth-of-type(even) {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
 }
