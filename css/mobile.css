@@ -1,0 +1,19 @@
+header {
+    max-height: 50vh
+}
+header h3 {
+    display: none;
+}
+article img, article iframe[allowfullscreen] {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+article img:nth-of-type(even) {
+    float: none;
+    margin-left: 0;
+}
+article {
+    padding: 0 30px;
+}

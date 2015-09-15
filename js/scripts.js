@@ -11,15 +11,22 @@ $(document).ready(function() {
         if (isMenuOpen === false) {
             $("nav").animate({
                 top: 0
-            }, 200);
+            }, 100);
             isMenuOpen = true;
         } else {
             $("nav").animate({
                 top: "100vh"
-            }, 200);
+            }, 100);
             isMenuOpen = false;
         }
     });
+});
+$(window).resize(function() {
+    if (window.innerWidth < 1000) {
+        $("nav").css({
+            top: 0
+        });
+    }
 });
 
 function emailMe(address) {
