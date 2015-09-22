@@ -21,13 +21,6 @@ $(document).ready(function() {
         }
     });
 });
-$(window).resize(function() {
-    if (window.innerWidth < 1000) {
-        $("nav").css({
-            top: 0
-        });
-    }
-});
 
 function emailMe(address) {
     console.log("test");
