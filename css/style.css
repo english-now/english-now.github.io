@@ -175,7 +175,7 @@ nav ul li:hover > ul {
     display: block;
 }
 article {
-    padding: 30px 40px;
+    padding: 20vh 40px 30px;
     background: white;
     line-height: 1.6;
 }
@@ -235,13 +235,13 @@ footer div a {
     nav li {
         position: static;
     }
-    footer div {
-        display: none;
-    }
     footer {
         height: auto;
         margin: 0;
-
+        padding: 20px;
+    }
+    footer div {
+        display: none;
     }
 }
 @media (max-width: 800px) {

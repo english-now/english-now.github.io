@@ -45,6 +45,7 @@
 }
 article {
     text-align: justify;
+    padding-top: 25px;
 }
 article img {
     margin-top: 20px;
