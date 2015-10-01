@@ -194,7 +194,7 @@ footer {
     text-align: center;
     background: #751f1f;
     color: white;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
 }
 footer div {
@@ -211,12 +211,9 @@ footer a {
 footer div a {
     display: block;
 }
-.social {
-    display: block;
-    margin: 0 auto;
-}
 .social img {
     width: 40px;
+    padding: 0;
 }
 @media (max-width: 1000px) {
     .menuButton {
