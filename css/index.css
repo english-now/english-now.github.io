@@ -29,6 +29,14 @@
     padding: 0 10px;
     width: 50%;
 }
+.jumbotron .column:first-child {
+    width: 40%;
+}
+.jumbotron .column:last-child {
+    width: 60%;
+    padding-top: 12%;
+    font-weight: 500;
+}
 .jumbotron-video-wrapper {
     position: relative;
     height: 0;
@@ -48,6 +56,7 @@ article {
 }
 article img {
     margin-top: 20px;
+    width: 330px;
 }
 
 @media (max-width: 900px) {
@@ -59,9 +68,10 @@ article img {
         color: black;
         height: auto;
     }
-    .jumbotron .column {
+    .jumbotron .column:first-child, .jumbotron .column:last-child {
         width: 100%;
         position: relative;
+        margin: 0;
     }
     .jumbotron h2, .jumbotron p {
         color: black;

@@ -84,6 +84,7 @@ header h1 {
 }
 header h3 {
     font-weight: 300;
+    margin-left: 4px;
 }
 .menuButton {
     position: absolute;
@@ -147,6 +148,9 @@ nav ul a {
     color: #333;
     padding: 10px 15px;
 }
+nav ul li:nth-child(3) li a {
+    padding: 6px 15px;
+}
 nav ul li {
     float: left;
     padding: 0;
@@ -194,7 +198,7 @@ footer {
     text-align: center;
     background: #751f1f;
     color: white;
-    height: 50vh;
+    padding-bottom: 30px;
     width: 100%;
 }
 footer div {
