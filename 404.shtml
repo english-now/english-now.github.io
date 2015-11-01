@@ -38,8 +38,6 @@ article a:hover {
     }
 }
     </style>
-    <script src="js/jquery.js"></script>
-    <script src="js/scripts.js"></script>
 </head>
 
 <body>
@@ -112,6 +110,8 @@ article a:hover {
         <h3>404.</h3>
         <p>Whatever you tried to find isn't here. Maybe try going <a href="../">home</a>?</p>
     </article>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
