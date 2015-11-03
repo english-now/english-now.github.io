@@ -1,21 +1,21 @@
-$(window).scroll(function () {
+$(window).scroll(function() {
     var wScroll = $(window).scrollTop();
-    $(".bg").css({
-        "transform": "translate(0,-" + wScroll / 2 + "px)"
+    $('.bg').css({
+        'transform': 'translate(0,-' + wScroll / 2 + 'px)'
     });
 });
 
 $(document).ready(function() {
     var isMenuOpen = false;
-    $(".menuButton").click(function() {
+    $('.menuButton').click(function() {
         if (isMenuOpen === false) {
-            $("nav").animate({
+            $('nav').animate({
                 top: 0
             }, 100);
             isMenuOpen = true;
         } else {
-            $("nav").animate({
-                top: "100vh"
+            $('nav').animate({
+                top: '100vh'
             }, 100);
             isMenuOpen = false;
         }
@@ -23,22 +23,22 @@ $(document).ready(function() {
 });
 
 function emailMe(address) {
-    console.log("test");
-    window.open("mailto:" + address + "@english-now.com");
+    console.log('test');
+    window.open('mailto:' + address + '@english-now.com');
 }
 
 $(document).ready(function() {
-    $("#emailShareButton").click(function() {
-        window.open("mailto:?subject=Check out this page!&body=" + window.location.href);
+    $('#emailShareButton').click(function() {
+        window.open('mailto:?subject=Check out this page!&body=' + window.location.href);
     });
-    $("#facebookShareButton").click(function() {
-        window.open("https://www.facebook.com/sharer/sharer.php?u=" + window.location.href);
+    $('#facebookShareButton').click(function() {
+        window.open('https://www.facebook.com/sharer/sharer.php?u=' + window.location.href);
     });
-    $("#twitterShareButton").click(function() {
-        window.open("https://twitter.com/intent/tweet?text=English+Now!+http%3A%2F%2F" + window.location.href);
+    $('#twitterShareButton').click(function() {
+        window.open('https://twitter.com/intent/tweet?text=English+Now!+http%3A%2F%2F' + window.location.href);
     });
-    $("#googleShareButton").click(function() {
-        window.open("https://plus.google.com/share?url=" + window.location.href);
+    $('#googleShareButton').click(function() {
+        window.open('https://plus.google.com/share?url=' + window.location.href);
     });
 });
 
