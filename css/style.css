@@ -62,11 +62,13 @@ header a {
     text-decoration: none;
 }
 header a div {
-    transition: .2s color;
+    -webkit-transition: .2s color;
+            transition: .2s color;
 }
 header a div:hover h1, header a div:hover h3 {
     color: #6f2a2a;
-    transition: .2s color;
+    -webkit-transition: .2s color;
+            transition: .2s color;
 }
 header div {
     display: inline-block;
