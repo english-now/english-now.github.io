@@ -18,21 +18,21 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .jumbotron h2 {
     font-size: 2.5em;
@@ -41,16 +41,20 @@
     font-size: 1.1em;
 }
 .jumbotron .column {
-    padding: 0 10px;
     width: 50%;
+    position: absolute;
+    bottom: 0;
 }
 .jumbotron .column:first-child {
-    width: 40%;
+    width: 30%;
+    left: 0;
 }
 .jumbotron .column:last-child {
-    width: 60%;
-    padding-top: 12%;
+    width: 70%;
+    padding: 30px 50px 20px;
     font-weight: 500;
+    right: 0;
+    background: rgba(0,0,0,.5);
 }
 .jumbotron-video-wrapper {
     position: relative;
@@ -68,10 +72,13 @@
 article {
     text-align: justify;
     padding-top: 25px;
+    display: flex;
+    flex-direction: row;
 }
 article img {
     margin-top: 20px;
     width: 330px;
+    height: 251px;
 }
 @media (max-width: 900px) {
     .bg {
