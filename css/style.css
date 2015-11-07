@@ -234,8 +234,15 @@ footer div a {
         left: 0;
         background: lightgrey;
     }
-    nav li {
+    nav * {
+        display: block;
         position: static;
+    }
+    nav li {
+        display: block;
+    }
+    nav ul ul {
+        display: block;
     }
     footer {
         height: auto;
