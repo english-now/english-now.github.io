@@ -73,7 +73,7 @@ article a:hover {
                         <li><a href="student-services">Student Services</a></li>
                     </ul>
                 </li>
-                <li><a href="directors-letter/english">Director&#39;s Letter</a>
+                <li><a href="directors-letter/english">Director's Letter</a>
                     <ul>
                         <li><a href="directors-letter/arabic">Arabic</a></li>
                         <li><a href="directors-letter/chinese">Chinese</a></li>
@@ -108,7 +108,7 @@ article a:hover {
     </header>
     <article>
         <h3>404.</h3>
-        <p>Whatever you tried to find isn't here. Maybe try going <a href="../">home</a>?</p>
+        <p>Whatever you tried to find isn't here. Maybe try going <a href="http://english-now.com">home</a>?</p>
     </article>
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
