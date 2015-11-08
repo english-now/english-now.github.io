@@ -55,6 +55,7 @@
     font-weight: 500;
     right: 0;
     background: rgba(0,0,0,.5);
+    text-shadow: 0 0 2px black;
 }
 .jumbotron-video-wrapper {
     position: relative;
@@ -79,6 +80,8 @@ article img {
     margin-top: 20px;
     height: 251px;
     width: 330px;
+    float: left;
+    margin-bottom: 100px;
 }
 @media (max-width: 900px) {
     .bg {
@@ -93,6 +96,7 @@ article img {
         width: 100%;
         position: relative;
         margin: 0;
+        background: 0;
     }
     .jumbotron h2, .jumbotron p {
         color: black;
