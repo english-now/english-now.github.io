@@ -16,7 +16,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 300;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-400.woff2) format('woff2');
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-300.woff2) format('woff2');
     unicode-range: U+0000-00FF;
 }
 * {
