@@ -30,7 +30,6 @@ a:hover {
 h1, h2, h3 {
     margin: 0;
     font-family: 'Raleway', 'Open Sans', sans-serif;
-    font-weight: 100;
 }
 h2 {
     margin-bottom: 20px;
@@ -72,10 +71,8 @@ header div {
 header h1 {
     font-size: 3.5em;
     color: #444;
-    font-weight: 100;
 }
 header h3 {
-    font-weight: 200;
     margin-left: 4px;
 }
 .menuButton {
