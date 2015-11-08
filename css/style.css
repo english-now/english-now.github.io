@@ -2,14 +2,21 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 200;
-    src: local('Raleway Light'), local('Raleway-Light'), url(fonts/Raleway.woff2) format('woff2'), url(fonts/Raleway.ttf) format('truetype');
+    src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(fonts/Raleway-200.woff2) format('woff2'), url(fonts/Raleway-200.ttf) format('truetype');
+    unicode-range: U+0000-00FF;
+}
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Raleway Thin'), local('Raleway-Thin'), url(fonts/Raleway-100.woff2) format('woff2'), url(fonts/Raleway-100.ttf) format('truetype');
     unicode-range: U+0000-00FF;
 }
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(fonts/OpenSans.woff2) format('woff2'), url(fonts/OpenSans.ttf) format('truetype');
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/OpenSans-300.woff2) format('woff2'), url(fonts/OpenSans-300.ttf) format('truetype');
     unicode-range: U+0000-00FF;
 }
 * {
@@ -20,6 +27,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100vw;
 }
 a {
     color: #bf2b2b;
@@ -30,6 +38,7 @@ a:hover {
 h1, h2, h3 {
     margin: 0;
     font-family: 'Raleway', 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 h2 {
     margin-bottom: 20px;
@@ -71,8 +80,10 @@ header div {
 header h1 {
     font-size: 3.5em;
     color: #444;
+    font-weight: 100;
 }
 header h3 {
+    font-weight: 200;
     margin-left: 4px;
 }
 .menuButton {

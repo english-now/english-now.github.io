@@ -77,8 +77,8 @@ article {
 }
 article img {
     margin-top: 20px;
-    width: 330px !important;
-    height: 251px !important;
+    height: 251px;
+    width: 330px;
 }
 @media (max-width: 900px) {
     .bg {
