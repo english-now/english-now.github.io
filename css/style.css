@@ -2,21 +2,14 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 200;
-    src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(../fonts/Raleway-200.woff2) format('woff2'), url(../fonts/Raleway-200.ttf) format('truetype');
-    unicode-range: U+0000-00FF;
-}
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Raleway Thin'), local('Raleway-Thin'), url(../fonts/Raleway-100.woff2) format('woff2'), url(../fonts/Raleway-100.ttf) format('truetype');
+    src: local('Raleway Light'), local('Raleway-Light'), url(fonts/Raleway.woff2) format('woff2'), url(fonts/Raleway.ttf) format('truetype');
     unicode-range: U+0000-00FF;
 }
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 300;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-300.woff2) format('woff2');
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(fonts/OpenSans.woff2) format('woff2'), url(fonts/OpenSans.ttf) format('truetype');
     unicode-range: U+0000-00FF;
 }
 * {
@@ -199,6 +192,7 @@ footer {
 footer div {
     margin-top: 50px;
     width: 15%;
+    line-height: 1.4;
     display: inline-block;
     text-align: left;
     vertical-align: top;
