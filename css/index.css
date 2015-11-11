@@ -71,17 +71,7 @@
     height: 100%;
 }
 article {
-    text-align: justify;
-    display: flex;
-    flex-direction: row;
     padding: 25px;
-    padding-right: 40px;
-}
-article img {
-    height: 251px;
-    width: 330px;
-    float: left;
-    padding-right: 20px;
 }
 @media (max-width: 900px) {
     .bg {
