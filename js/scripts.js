@@ -5,29 +5,15 @@ $(window).scroll(function() {
     });
 });
 
-$(document).ready(function() {
-    var isMenuOpen = false;
-    $('.menuButton').click(function() {
-        if (isMenuOpen === false) {
-            $('nav').animate({
-                top: 0
-            }, 100);
-            isMenuOpen = true;
-        } else {
-            $('nav').animate({
-                top: '100vh'
-            }, 100);
-            isMenuOpen = false;
-        }
-    });
-});
-
 function emailMe(address) {
     console.log('test');
     window.open('mailto:' + address + '@english-now.com');
 }
 
 $(document).ready(function() {
+    $('.nav-button').click(function() {
+        $('nav, .nav-button').toggleClass('open');
+    });
     $('#emailShareButton').click(function() {
         window.open('mailto:?subject=Check out this page!&body=' + window.location.href);
     });

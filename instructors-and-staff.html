@@ -13,8 +13,14 @@
         article > img {
             width: 100%;
         }
-        p img {
+        p {
             clear: both;
+        }
+        p:first-of-type,
+        p:nth-of-type(2) {
+            clear: none;
+        }
+        p img {
             max-width: 150px;
             margin-left: 0 !important;
             margin-right: 20px !important;
@@ -26,14 +32,14 @@
 <body>
     <header>
         <a href="../">
-            <img class="logo" src="images/logo.png" alt="English Now! logo">
+            <img src="images/logo.png" alt="English Now! logo">
             <div>
                 <h2>English Now!</h2>
                 <h3>A Special Place To Learn English</h3>
             </div>
         </a>
-        <div class="menuButton">
-            <div class="menuBar"></div>
+        <div class="nav-button">
+            <div class="nav-button-bar"></div>
         </div>
         <nav>
             <ul>
@@ -94,8 +100,8 @@
     </header>
     <article>
         <h1>Experience and Excellence</h1>
-        <p>Our approach starts with world-class staff and instructors. We are educators who care deeply about excellence in language education and the relationships formed through service of our students. Our school attracts the finest English language instructors in the Washington, DC metro area, and we do everything that we can to support them in their efforts. Our staff is deeply experienced and will offer you advice about which programs might make sense for you, and our instructors are all certified or have been teaching the English language to international students for many years.</p>
         <img src="images/instructors-and-staff.jpg" src="The staff at English Now!">
+        <p>Our approach starts with world-class staff and instructors. We are educators who care deeply about excellence in language education and the relationships formed through service of our students. Our school attracts the finest English language instructors in the Washington, DC metro area, and we do everything that we can to support them in their efforts. Our staff is deeply experienced and will offer you advice about which programs might make sense for you, and our instructors are all certified or have been teaching the English language to international students for many years.</p>
         <p>We look forward to meeting you soon!</p>
         <h2>Staff Biographies</h2>
         <p>
