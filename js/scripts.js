@@ -1,10 +1,9 @@
 $(window).scroll(function() {
     var wScroll = $(window).scrollTop();
-    $('.bg').css({
-        'transform': 'translate(0,-' + wScroll / 2 + 'px)'
+    $(".bg").css({
+        "transform": "translateY(-" + wScroll / 2 + "px)"
     });
 });
-
 function emailMe(address) {
     console.log('test');
     window.open('mailto:' + address + '@english-now.com');
@@ -12,7 +11,7 @@ function emailMe(address) {
 
 $(document).ready(function() {
     $('.nav-button').click(function() {
-        $('nav, .nav-button').toggleClass('open');
+        $('#main-nav, .nav-button').toggleClass('open');
     });
     $('#emailShareButton').click(function() {
         window.open('mailto:?subject=Check out this page!&body=' + window.location.href);

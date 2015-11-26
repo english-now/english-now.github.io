@@ -128,41 +128,41 @@ header h3 {
 .nav-button-bar:before {
     top: 10px;
 }
-nav {
+#main-nav {
     display: inline;
     position: relative;
     bottom: 0;
 }
-nav ul,
-nav ul li {
+#main-nav ul,
+#main-nav ul li {
     position: relative;
     margin: 0;
 }
-nav ul {
+#main-nav ul {
     list-style: none;
     padding: 0;
     z-index: 1000;
 }
-nav > ul {
+#main-nav > ul {
     margin: 40px 40px 0 0;
     float: right;
 }
-nav ul a {
+#main-nav ul a {
     display: block;
     color: black;
     padding: 10px 15px;
 }
-nav ul li:nth-child(3) li a {
+#main-nav ul li:nth-child(3) li a {
     padding: 6px 15px;
 }
-nav ul li {
+#main-nav ul li {
     float: left;
     padding: 0;
 }
-nav ul li:hover {
+#main-nav ul li:hover {
     background: #f6f6f6;
 }
-nav ul ul {
+#main-nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -170,16 +170,16 @@ nav ul ul {
     background: #fff;
     padding: 0;
 }
-nav ul:nth-child(3) ul {
+#main-nav ul:nth-child(3) ul {
     width: 230px;
 }
-nav ul:nth-child(3) a {
+#main-nav ul:nth-child(3) a {
     padding: 9px 14px;
 }
-nav ul ul li {
+#main-nav ul ul li {
     width: 100%;
 }
-nav ul li:hover > ul {
+#main-nav ul li:hover > ul {
     display: block;
 }
 article {
@@ -246,14 +246,14 @@ footer div a {
     header img {
         display: none;
     }
-    nav,
+    #main-nav,
     .nav-button {
         transition: .2s;
     }
     .nav-button {
         display: block;
     }
-    nav {
+    #main-nav {
         position: fixed;
         top: -100vh;
         right: 0;
@@ -263,13 +263,13 @@ footer div a {
         z-index: 100;
         font-size: 1.3em;
     }
-    nav,
-    nav ul {
+    #main-nav,
+    #main-nav ul {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    nav.open {
+    #main-nav.open {
         top: 0;
     }
     .open {

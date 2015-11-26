@@ -1,69 +1,60 @@
-.bg {
-    background-image: url(../images/bg.jpg);
+header {
+    background: rgba(255, 255, 255, .95);
+}
+.banner {
+    position: absolute;
+    overflow: auto;
     width: 100vw;
     height: 100vh;
-    left: 0;
     top: 0;
-    background-size: cover;
-    position: fixed;
+    left: 0;
     z-index: -100;
 }
-.jumbotron {
+.banner ul {
+    padding: 0;
+    margin: 0;
+}
+.banner li {
     color: white;
-    height: 100vh;
+    list-style: none;
+    padding: 0;
+    padding-top: 134px;
     width: 100vw;
-    padding-top: 20vh;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
+    height: 100vh;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
     display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
+    flex-direction: column;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
 }
-.jumbotron h2 {
-    font-size: 2.5em;
+.banner li:first-child {
+    background: url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: top;
 }
-.jumbotron p {
-    font-size: 1.1em;
+.banner li:nth-child(2) {
+    background: url(../images/videobg.png);
+    background-size: cover;
+    background-position: center;
 }
-.jumbotron .column {
+.banner li:last-child {
+    background: url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.banner li:nth-child(2) > div {
     width: 50%;
-    position: absolute;
-    bottom: 0;
 }
-.jumbotron .column:first-child {
-    width: 30%;
-    left: 0;
-}
-.jumbotron .column:last-child {
-    width: 70%;
-    padding: 30px 50px 20px;
-    font-weight: 500;
-    right: 0;
-    background: rgba(0,0,0,.5);
-    text-shadow: 0 0 2px black;
-}
-.jumbotron-video-wrapper {
+.video-container {
     position: relative;
     height: 0;
     padding-top: 56.25%;
     width: 100%;
 }
-.jumbotron iframe {
+iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -72,35 +63,5 @@
 }
 article {
     padding: 25px;
-}
-@media (max-width: 900px) {
-    .bg {
-        display: none;
-    }
-    .jumbotron {
-        display: block;
-        color: black;
-        height: auto;
-    }
-    .jumbotron .column:first-child, .jumbotron .column:last-child {
-        width: 100%;
-        position: relative;
-        margin: 0;
-        background: 0;
-    }
-    .jumbotron h2, .jumbotron p {
-        color: black;
-        text-align: center;
-        padding: 0 20px;
-        text-shadow: none;
-    }
-    .jumbotron h2 {
-        margin-top: 20px;
-    }
-}
-@media (max-height: 500px) and (orientation: landscape) {
-    .jumbotron {
-        padding-top: 90px;
-        position: relative;
-    }
+    margin-top: 100vh;
 }
