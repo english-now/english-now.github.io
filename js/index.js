@@ -3,7 +3,7 @@
 $(document).ready(function() {
     $('.banner').unslider({
     	speed: 500,
-    	delay: 2000,
+    	delay: 3000,
     	keys: true,
     	fluid: true
     });
