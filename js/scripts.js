@@ -11,7 +11,7 @@ function emailMe(address) {
 
 $(document).ready(function() {
     $('.nav-button').click(function() {
-        $('#main-nav, .nav-button').toggleClass('open');
+        $('nav, .nav-button').toggleClass('open');
     });
     $('#emailShareButton').click(function() {
         window.open('mailto:?subject=Check out this page!&body=' + window.location.href);

@@ -128,41 +128,41 @@ header h3 {
 .nav-button-bar:before {
     top: 10px;
 }
-#main-nav {
+nav {
     display: inline;
     position: relative;
     bottom: 0;
 }
-#main-nav ul,
-#main-nav ul li {
+nav ul,
+nav ul li {
     position: relative;
     margin: 0;
 }
-#main-nav ul {
+nav ul {
     list-style: none;
     padding: 0;
     z-index: 1000;
 }
-#main-nav > ul {
+nav > ul {
     margin: 40px 40px 0 0;
     float: right;
 }
-#main-nav ul a {
+nav ul a {
     display: block;
     color: black;
     padding: 10px 15px;
 }
-#main-nav ul li:nth-child(3) li a {
+nav ul li:nth-child(3) li a {
     padding: 6px 15px;
 }
-#main-nav ul li {
+nav ul li {
     float: left;
     padding: 0;
 }
-#main-nav ul li:hover {
+nav ul li:hover {
     background: #f6f6f6;
 }
-#main-nav ul ul {
+nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -170,16 +170,16 @@ header h3 {
     background: #fff;
     padding: 0;
 }
-#main-nav ul:nth-child(3) ul {
+nav ul:nth-child(3) ul {
     width: 230px;
 }
-#main-nav ul:nth-child(3) a {
+nav ul:nth-child(3) a {
     padding: 9px 14px;
 }
-#main-nav ul ul li {
+nav ul ul li {
     width: 100%;
 }
-#main-nav ul li:hover > ul {
+nav ul li:hover > ul {
     display: block;
 }
 article {
@@ -246,14 +246,15 @@ footer div a {
     header img {
         display: none;
     }
-    #main-nav,
+    nav,
     .nav-button {
+        -webkit-transition: .2s;
         transition: .2s;
     }
     .nav-button {
         display: block;
     }
-    #main-nav {
+    nav {
         position: fixed;
         top: -100vh;
         right: 0;
@@ -263,16 +264,27 @@ footer div a {
         z-index: 100;
         font-size: 1.3em;
     }
-    #main-nav,
-    #main-nav ul {
+    nav,
+    nav ul {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
         align-items: center;
     }
-    #main-nav.open {
+    nav.open {
         top: 0;
     }
     .open {
+        -webkit-transition: .2s;
         transition: .2s;
     }
     footer {

@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
     $('.banner').unslider({
-    	speed: 600,
+    	speed: 500,
     	delay: 2000,
     	keys: true,
     	fluid: true
