@@ -1,11 +1,4 @@
-$(window).scroll(function() {
-    var wScroll = $(window).scrollTop();
-    $(".bg").css({
-        "transform": "translateY(-" + wScroll / 2 + "px)"
-    });
-});
 function emailMe(address) {
-    console.log('test');
     window.open('mailto:' + address + '@english-now.com');
 }
 

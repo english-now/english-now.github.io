@@ -222,6 +222,12 @@ footer div {
     text-align: left;
     vertical-align: top;
 }
+footer div:nth-of-type(4) {
+    padding-top: 1.57em;
+}
+footer div:nth-of-type(6) {
+    vertical-align: bottom;
+}
 footer a {
     text-decoration: none;
     color: inherit;
