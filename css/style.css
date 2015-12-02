@@ -152,9 +152,6 @@ nav ul a {
     color: black;
     padding: 10px 15px;
 }
-nav ul li:nth-child(3) li a {
-    padding: 6px 15px;
-}
 nav ul li {
     float: left;
     padding: 0;
@@ -178,6 +175,9 @@ nav ul:nth-child(3) a {
 }
 nav ul ul li {
     width: 100%;
+}
+nav ul ul a {
+    padding: 6px 15px;
 }
 nav ul li:hover > ul {
     display: block;
