@@ -16,7 +16,7 @@ $(document).ready(function() {
         window.open('https://twitter.com/intent/tweet?text=English+Now!+http%3A%2F%2F' + window.location.href);
     });
     $('#googleShareButton').click(function() {
-        window.open('https://plus.google.com/share?url=' + window.location.href);
+        window.open('https://plus.google.com/share?url="' + window.location.href + '"');
     });
 });
 

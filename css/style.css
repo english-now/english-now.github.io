@@ -134,7 +134,7 @@ nav {
     bottom: 0;
 }
 nav ul,
-nav ul li {
+nav li {
     position: relative;
     margin: 0;
 }
@@ -152,11 +152,15 @@ nav ul a {
     color: black;
     padding: 10px 15px;
 }
-nav ul li {
+nav li {
     float: left;
     padding: 0;
+    font-weight: 300;
 }
-nav ul li:hover {
+nav > ul > li:nth-child(2) li:nth-child(2) a, nav > ul > li:nth-child(2) li:nth-child(3) a, nav > ul > li:nth-child(2) li:nth-child(8) a, nav > ul > li:nth-child(2) li:nth-child(9) a, nav > ul > li:nth-child(2) li:nth-child(12) a {
+    color: #555;
+}
+nav li:hover {
     background: #f6f6f6;
 }
 nav ul ul {
