@@ -322,6 +322,11 @@ footer div a {
         margin-left: 0;
     }
     article {
-        padding: 0 30px;
+        padding: 50px 30px 0;
     }
+}
+@media (max-width: 358px) {
+	article {
+		padding: 150px 20px 0;
+	}
 }
