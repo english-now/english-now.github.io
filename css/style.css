@@ -157,7 +157,11 @@ nav li {
     padding: 0;
     font-weight: 300;
 }
-nav > ul > li:nth-child(2) li:nth-child(2) a, nav > ul > li:nth-child(2) li:nth-child(3) a, nav > ul > li:nth-child(2) li:nth-child(8) a, nav > ul > li:nth-child(2) li:nth-child(9) a, nav > ul > li:nth-child(2) li:nth-child(12) a {
+nav > ul > li:nth-child(2) li:nth-child(2) a,
+nav > ul > li:nth-child(2) li:nth-child(3) a,
+nav > ul > li:nth-child(2) li:nth-child(8) a,
+nav > ul > li:nth-child(2) li:nth-child(9) a,
+nav > ul > li:nth-child(2) li:nth-child(12) a {
     color: #555;
 }
 nav li:hover {
@@ -289,6 +293,7 @@ footer div a {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
+        height: 100vh;
     }
     nav.open {
         top: 0;
@@ -326,7 +331,7 @@ footer div a {
     }
 }
 @media (max-width: 358px) {
-	article {
-		padding: 150px 20px 0;
-	}
+    article {
+        padding: 150px 20px 0;
+    }
 }
