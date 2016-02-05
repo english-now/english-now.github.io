@@ -117,10 +117,10 @@ iframe {
     background: rgba(255, 255, 255, .9);
     position: absolute;
     bottom: 0;
-    padding: 1.1em 1.4em .3em;
+    padding: 1.1em 1.4em 1.3em;
 }
 article {
-    padding: 25px;
+    padding: 2em;
     margin-top: 100vh;
 }
 @media (max-width: 800px) {
