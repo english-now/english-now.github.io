@@ -228,6 +228,7 @@ footer {
 }
 footer div {
     margin-top: 50px;
+    margin-bottom: 20px;
     width: 15%;
     line-height: 1.4;
     display: inline-block;
