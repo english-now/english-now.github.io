@@ -44,12 +44,12 @@ header {
     align-items: center;
 }
 .banner li:first-child {
-    background: url(../images/bg1.jpg);
+    background: url(/images/bg1.jpg);
     background-size: cover;
     background-position: center 25%;
 }
 .banner li:nth-child(2) {
-    background: url(../images/videobg.png);
+    background: url(/images/videobg.png);
     color: white;
     background-size: cover;
     background-position: center;
@@ -71,12 +71,12 @@ header {
     margin-left: 20px;
 }
 .banner li:nth-child(3) {
-    background: url(../images/bg2.jpg);
+    background: url(/images/bg2.jpg);
     background-size: cover;
     background-position: top;
 }
 .banner li:nth-child(4) {
-    background: url(../images/bg3.jpg);
+    background: url(/images/bg3.jpg);
     background-size: cover;
     background-position: top;
 }
