@@ -49,7 +49,8 @@ header {
     background-position: center 25%;
 }
 .banner li:nth-child(2) {
-    background: url(/images/videobg.png);
+    background: url(/images/IMG_4299.jpg);
+    background-size: contain;
     color: white;
     background-size: cover;
     background-position: center;
@@ -57,14 +58,14 @@ header {
     padding-bottom: 23vh;
 }
 .banner li:nth-child(2) h1 {
-    width: 30%;
+    width: 40%;
     text-align: right;
     padding: 0;
     float: right;
     margin-left: 10%;
 }
 .banner li:nth-child(2) > div {
-    width: 50%;
+    width: 40%;
     padding: 0;
     float: left;
     margin-right: 10%;
