@@ -314,6 +314,9 @@ footer div a {
     footer div {
         display: none;
     }
+    article {
+        padding: 50px 30px 0;
+    }
 }
 @media (max-width: 800px) {
     header h3 {
@@ -329,13 +332,5 @@ footer div a {
     article img:nth-of-type(even) {
         float: none;
         margin-left: 0;
-    }
-    article {
-        padding: 50px 30px 0;
-    }
-}
-@media (max-width: 358px) {
-    article {
-        padding: 150px 20px 0;
     }
 }
