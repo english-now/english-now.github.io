@@ -125,16 +125,23 @@ article {
     margin-top: 100vh;
 }
 @media (max-width: 800px) {
-    .banner li:nth-child(2) {
-        flex-direction: column;
-    }
-    .banner li:nth-child(2) > div {
-        width: 90%;
-        text-align: center;
-        margin: 0;
-        margin-bottom: 14vh;
-    }
-    .banner li:nth-child(2) h1 {
+    .banner {
         display: none;
+    }
+    .jumbotron {
+        display: block;
+        position: static;
+        margin-top: 15vh;
+    }
+    .jumbotron h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .jumbotron p {
+        display: none;
+    }
+    article {
+        margin-top: auto;
+        padding-top: 0;
     }
 }
