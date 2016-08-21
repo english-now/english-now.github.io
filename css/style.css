@@ -275,6 +275,10 @@ footer div a {
         position: fixed;
         transition: .2s;
         overflow: scroll;
+        z-index: 100;
+    }
+    nav li:hover {
+        background: inherit;
     }
     nav.open {
         left: 0;
@@ -313,7 +317,7 @@ footer div a {
         background: #333;
     }
     nav .active a {
-        color: white;
+        color: #333;
     }
     nav a:after {
         content: '';
@@ -321,7 +325,7 @@ footer div a {
         right: 100%;
         left: 0;
         bottom: 0;
-        background: white;
+        background: #333;
         height: 4px;
         transition: .3s ease-out;
     }
@@ -343,7 +347,7 @@ footer div a {
         display: none;
     }
     article {
-        padding: 50px 30px 0;
+        padding: 15vh 30px 0;
     }
 }
 @media (max-width: 800px) {
@@ -360,5 +364,10 @@ footer div a {
     article img:nth-of-type(even) {
         float: none;
         margin-left: 0;
+    }
+}
+@media (max-width: 357px) {
+    article {
+        padding-top: 25vh;
     }
 }

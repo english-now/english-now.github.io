@@ -145,3 +145,8 @@ article {
         padding-top: 0;
     }
 }
+@media (max-width: 357px) {
+    article {
+        padding-top: 15px;
+    }
+}
