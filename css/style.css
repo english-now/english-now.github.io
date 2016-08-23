@@ -274,6 +274,7 @@ footer div a {
         height: 100vh;
         position: fixed;
         transition: .2s;
+        display: block;
         overflow: scroll;
         z-index: 100;
     }
@@ -285,14 +286,15 @@ footer div a {
         transition: .3s;
     }
     nav > ul {
-        display: flex;
-        flex-direction: column;
         margin: 0;
         padding: 20px;
         right: auto;
         position: relative;
         width: 100vw;
         height: 100vh;
+    }
+    nav li {
+        display: block;
     }
     nav ul ul {
         display: block;
@@ -301,7 +303,7 @@ footer div a {
     nav ul ul li {
         margin-left: 20px;
         padding-left: 10px;
-        border-left: solid 4px white;
+        border-left: solid 2px #333;
     }
     nav a {
         font-size: 20px;
@@ -326,7 +328,7 @@ footer div a {
         left: 0;
         bottom: 0;
         background: #333;
-        height: 4px;
+        height: 2px;
         transition: .3s ease-out;
     }
     nav a:hover:after,
