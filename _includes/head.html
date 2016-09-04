@@ -1,0 +1,14 @@
+<head>
+    <title>English Now! - {{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Serving the Washington, DC area international community since 1991, English Now! offers English language courses for students of all levels.">
+    <meta name="author" content="English Now!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    {% if page.stylesheets %}
+        {% for stylesheet in page.stylesheets %}
+            <link rel="stylesheet" href="/css/{{ stylesheet }}.css">
+        {% endfor %}
+    {% endif %}
+</head>
