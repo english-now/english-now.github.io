@@ -1,0 +1,23 @@
+article {
+  text-align: center; }
+  article h3 {
+    font-size: 20em;
+    line-height: 1.2;
+    margin: 0;
+    color: #333; }
+
+p {
+  margin: 0;
+  font-size: 1.3em; }
+
+article a {
+  text-decoration: none;
+  border-bottom: solid 1px currentColor; }
+  article a:hover {
+    border-bottom: none; }
+
+@media (max-width: 600px) {
+  article {
+    padding-top: 150px; }
+    article h3 {
+      font-size: 4em; } }
