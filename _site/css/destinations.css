@@ -7,3 +7,7 @@ article p {
 hr {
   visibility: hidden;
   clear: both; }
+
+@media (max-width: 1100px) {
+  article img, article br {
+    display: none; } }
