@@ -2,3 +2,5 @@
 .jekyll-metadata
 .bundle
 ruby
+.DS_Store
+_site
