@@ -5,4 +5,4 @@ url: "http://english-now.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-exclude: [ruby, Gemfile, Gemfile.lock]
+exclude: [ruby, Gemfile, Gemfile.lock, vendor]
