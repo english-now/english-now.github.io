@@ -5,4 +5,8 @@ url: "http://english-now.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 exclude: [ruby, Gemfile, Gemfile.lock, vendor]
