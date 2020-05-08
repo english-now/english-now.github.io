@@ -23,10 +23,6 @@ document.getElementById('facebookShareButton').onclick = function() {
 document.getElementById('twitterShareButton').onclick = function() {
     window.open('https://twitter.com/intent/tweet?text=English+Now!+http%3A%2F%2F' + window.location.href);
 };
-document.getElementById('googleShareButton').onclick = function() {
-    window.open('https://plus.google.com/share?url="' + window.location.href + '"');
-};
-
 
 if(document.location.protocol=='http:'){
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
