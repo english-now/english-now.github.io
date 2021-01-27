@@ -13,14 +13,18 @@ title: Instructors and Staff
     <h2>Staff Biographies</h2>
     {% for employee in site.data.staff %}
     <p>
-        <img src="/images/staff/{{ employee.image }}">
+        {% if employee.image %}
+            <img src="/images/staff/{{ employee.image }}">
+        {% endif %}
         <strong>{{ employee.name }}</strong> {{ employee.bio }}
     </p>
     {% endfor %}
     <h2>Instructor Biographies</h2>
     {% for employee in site.data.instructors %}
     <p>
-        <img src="/images/staff/{{ employee.image }}">
+        {% if employee.image %}
+            <img src="/images/staff/{{ employee.image }}">
+        {% endif %}
         <strong>{{ employee.name }}</strong> {{ employee.bio }}
     </p>
     {% endfor %}
