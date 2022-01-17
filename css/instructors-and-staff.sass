@@ -6,7 +6,6 @@ article > img
 h2
   display: block
   width: 100%
-  float: left
   text-align: center
   font-size: 3em
   margin: 20px
@@ -17,20 +16,16 @@ article p
     clear: none
     text-align: left !important
 
-p
+.vertical-center-container
   img
     width: 150px
     margin: 0 20px 20px 0 !important
-  &:nth-of-type(odd) img
-    float: left
-    margin: 0 20px 20px 0 !important
+    flex-basis: 40%
 
-article p:nth-of-type(odd)
-  text-align: left
-
-p:nth-of-type(even) img
-  float: right
-  margin: 0 0 20px 20px !important
-
-article p:nth-of-type(even)
-  text-align: right
+@media (min-width: 800px)
+  .vertical-center-container
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+      min-width: 150px
