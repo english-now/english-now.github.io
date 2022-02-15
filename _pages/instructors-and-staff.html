@@ -19,9 +19,9 @@ title: Instructors and Staff
         {% endif %}
         <p><strong>{{ employee.name }}</strong> {{ employee.bio }}</p>
     </div>
-    {% if employee.bio-2 %}
+    {% if employee.bio_rtl %}
     <div class="vertical-center-container">
-        {{ employee.bio-2 }}
+        <p class="rtl">{{ employee.bio_rtl }}</p>
     </div>
     {% endif %}
     {% endfor %}
